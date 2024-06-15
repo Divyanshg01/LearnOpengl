@@ -136,6 +136,9 @@ int main()
     // You can unbind the VAO afterwards so other VAO calls won't accidentally modify this VAO, but this rarely happens. Modifying other
     // VAOs requires a call to glBindVertexArray anyways so we generally don't unbind VAOs (nor VBOs) when it's not directly necessary.
     glBindVertexArray(0);
+   
+    //Check this out
+    //glBindBuffer(GL_ELEMENT_ARRAY_BUFFER, 0);
 
 
     // uncomment this call to draw in wireframe polygons.
