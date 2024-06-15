@@ -26,10 +26,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="vertexShader.vs">
+    <None Include="Object.vs">
       <Filter>Resource Files</Filter>
     </None>
-    <None Include="fragmentShader.fs">
+    <None Include="Object.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightSource.fs">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="LightSource.vs">
       <Filter>Resource Files</Filter>
     </None>
   </ItemGroup>
